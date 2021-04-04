@@ -1,0 +1,17 @@
+.Titlebar {
+    background-color: #1b1c1d;
+    color: #fff;
+    overflow: hidden;
+    text-align: left;
+    user-select: auto;
+    -webkit-user-select: none;
+    -webkit-app-region: drag;
+}
+
+.NoDrag {
+    -webkit-app-region: no-drag;
+}
+
+.NoDrag:hover {
+    background-color: rgb(49, 46, 46) !important;
+}
